@@ -6,5 +6,4 @@
   <project name="garry-rogov/android_device_xiaomi_willow" path="device/xiaomi/willow" remote="github" revision="11.0" />
   <project name="garry-rogov/android_vendor_xiaomi_ginkgo" path="vendor/xiaomi/ginkgo" remote="github" revision="11.0" />
   <project name="Blacksuan19/kernel_dark_ages_vince" path="kernel/xiaomi/msm8953" remote="github" revision="darky" />
-  <project name="kubersharma001/android_packages_apps_GcamGOPrebuilt" path="packages/apps/GcamGOPrebuilt" remote="github" revision="arrow-11.0" />
 </manifest>
