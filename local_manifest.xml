@@ -23,7 +23,11 @@
    <!-- Gapps --> 	  
       <project name="ShevT/android_vendor_gapps" path="vendor/gapps" remote="gitlab" revision="12.1" />
    
-   <!-- Recorder -->
+   <!-- Dialer -->
+    <remove-project path="packages/apps/Dialer" name="crdroidandroid/android_packages_apps_Dialer" remote="crdroid" />
+    <project path="packages/apps/Dialer" name="ShevT/android_packages_apps_Dialer" remote="github" revision="12.x" />
+
+    <!-- Recorder -->
     <remove-project path="packages/apps/Recorder" name="LineageOS/android_packages_apps_Recorder" />
     <project path="packages/apps/Recorder" name="ShevT/android_packages_apps_Recorder" remote="github" revision="12.x" />	  
 </manifest>
