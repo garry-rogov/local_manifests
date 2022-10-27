@@ -16,5 +16,8 @@
 
    <!-- MiuiCamera --> 
       <project name="android_vendor_xiaomi_miuicamera" path="vendor/xiaomi/miuicamera" remote="garry-rogov" revision="13" />
+
+   <!-- RU translation -->
+      <project name="ShevT/android_packages_resources_translations" path="packages/resources/translations" remote="gitlab" revision="crdroid-13.0" />
 </manifest>
 
