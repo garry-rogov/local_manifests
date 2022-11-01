@@ -19,5 +19,8 @@
 
    <!-- RU translation -->
       <project name="ShevT/android_packages_resources_translations" path="packages/resources/translations" remote="gitlab" revision="crdroid-13.0" />
+
+   <!-- Add GApps -->
+      <project name="ShevT/android_vendor_gapps" path="vendor/gapps" remote="gitlab" revision="13.0" />
 </manifest>
 
