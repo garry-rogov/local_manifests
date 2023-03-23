@@ -6,7 +6,7 @@
           fetch="https://gitlab.com/" />	  
 
    <!-- Kernel Trees -->
-      <project name="android_kernel_xiaomi_ginkgo" path="kernel/xiaomi/ginkgo" remote="garry-rogov" revision="12.1" />
+      <project name="android_kernel_xiaomi_ginkgo" path="kernel/xiaomi/ginkgo" remote="garry-rogov" revision="13" />
 
    <!-- Device Trees -->
       <project name="android_device_xiaomi_willow" path="device/xiaomi/willow" remote="garry-rogov" revision="12.1" />
