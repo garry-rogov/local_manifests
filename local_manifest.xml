@@ -1,9 +1,21 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
-    <remote name="garry-rogov"
+  <remote name="garry-rogov"
           fetch="https://github.com/garry-rogov" />
-    <remote  name="gitlab"
+
+  <remote  name="gitlab"
           fetch="https://gitlab.com/" />
+
+  <remote  name="crdroid"
+           fetch="https://github.com/"
+           sync-c="true"
+           sync-j="4"
+           revision="refs/heads/13.0" />
+
+  <remote  name="aosp"
+           fetch="https://android.googlesource.com"
+           review="android-review.googlesource.com"
+           revision="refs/tags/android-13.0.0_r43" />
 
    <!-- Kernel Trees -->
       <project name="android_kernel_xiaomi_ginkgo" path="kernel/xiaomi/ginkgo" remote="garry-rogov" revision="13" />
@@ -22,5 +34,8 @@
 
    <!-- Add GApps -->
       <project name="ShevT/android_vendor_gapps" path="vendor/gapps" remote="gitlab" revision="13.0" />
-</manifest>
 
+   <!-- Zlib -->
+      <remove-project path="external/zlib" name="crdroidandroid/android_external_zlib" groups="pdk" remote="crdroid" />
+      <project path="external/zlib" name="platform/external/zlib" groups="pdk" remote="aosp" />
+</manifest>
