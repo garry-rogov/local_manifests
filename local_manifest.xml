@@ -34,8 +34,4 @@
 
    <!-- Add GApps -->
       <project name="ShevT/android_vendor_gapps" path="vendor/gapps" remote="gitlab" revision="13.0" />
-
-   <!-- Zlib -->
-      <remove-project path="external/zlib" name="crdroidandroid/android_external_zlib" groups="pdk" remote="crdroid" />
-      <project path="external/zlib" name="platform/external/zlib" groups="pdk" remote="aosp" />
 </manifest>
