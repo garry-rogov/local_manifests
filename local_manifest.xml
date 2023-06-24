@@ -12,11 +12,6 @@
            sync-j="4"
            revision="refs/heads/13.0" />
 
-  <remote  name="aosp"
-           fetch="https://android.googlesource.com"
-           review="android-review.googlesource.com"
-           revision="refs/tags/android-13.0.0_r43" />
-
    <!-- Kernel Trees -->
       <project name="android_kernel_xiaomi_ginkgo" path="kernel/xiaomi/ginkgo" remote="garry-rogov" revision="13" />
 
