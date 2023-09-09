@@ -13,7 +13,7 @@
            revision="refs/heads/13.0" />
 
    <!-- Kernel Trees -->
-      <project name="android_kernel_xiaomi_ginkgo" path="kernel/xiaomi/ginkgo" remote="garry-rogov" revision="13" />
+      <project name="android_kernel_xiaomi_ginkgo" path="kernel/xiaomi/ginkgo" remote="garry-rogov" revision="13-ksu" />
 
    <!-- Device Trees -->
       <project name="android_device_xiaomi_willow" path="device/xiaomi/willow" remote="garry-rogov" revision="13" />
